@@ -1,0 +1,26 @@
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#app > h1 {
+  color: #996dff;
+  margin-top: -10px;
+}
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 3rem;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+  margin-top: -7px;
+}
+
+#app .placeholder {
+  color: #878787f5;
+  user-select: none;
+}
